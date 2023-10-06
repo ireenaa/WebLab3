@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header_container">
+      <div class="section_left">
+        <input type="text" id="search_section" placeholder="Search...">
+        <a href="#" class="search_button" id="search_button">Search</a>
+        <a href="#" class="clear_button" id="clear_button">Clear</a>
+      </div>
+      <div class="section_right">
+        <a class="right_nav" href="#">My Salon</a>
+        <a class="right_nav" href="#">My Cars</a>
+        <a class="right_nav" href="#">Create Car</a>
+
+      </div>
+      <div class="line"></div>
+
+    </div>
+
+  </header>
+  <div class="main">
+    <div class="container main_container">
+      <div class="main_left">
+        <p class="main_p">Manage cars</p>
+
+        <div class="main__left__sort">
+          <p>Sort by most <br> expensive cars</p>
+          <a href="#" id="sortButton">Sort</a>
+        </div>
+        <div class="main__left__count">
+          <p>Count total <br>daily expenses</p>
+          <a href="#" id="countButton">Count</a>
+          <p class="countText">Total: $0</p>
+        </div>
+      </div>
+
+
+      <div class="main_right">
+
+        <div class="grid-container">
+          <div class="card1 cards" data-image="/images/911-white.svg">
+            <div class="car-info">
+              <div class="photo">
+                <img src="/images/911-white.svg" alt="911">
+              </div>
+              <div class="description">
+                <p>911 Carrera Coupe</p>
+              </div>
+              <div class="price">
+                <p class="price">$ 145000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card2 cards" data-image="/images/911-red.svg">
+            <div class="car-info">
+              <div class="photo">
+                <img src="/images/911-red.svg" alt="911">
+              </div>
+              <div class="description">
+                <p>911 Carrera Coupe (red)</p>
+              </div>
+              <div class="price">
+                <p class="price">$ 147000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card3 cards" data-image="/images/q8.svg">
+            <div class="car-info">
+              <div class="photo">
+                <img src="/images/q8.svg" alt="Q8">
+              </div>
+              <div class="description">
+                <p>Audi Q8 e-tron</p>
+              </div>
+              <div class="price">
+                <p class="price">$ 72000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card4 cards" data-image="/images/e-class-1.svg">
+            <div class="car-info">
+              <div class="photo">
+                <img src="/images/e-class-1.svg" alt="E-class">
+              </div>
+              <div class="description">
+                <p>Mercedes-Benz E-Class</p>
+              </div>
+              <div class="price">
+                <p class="price">$ 79000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card5 cards" data-image="/images/audi-rs.svg">
+            <div class="car-info">
+              <div class="photo">
+                <img src="/images/audi-rs.svg" alt="Audi">
+              </div>
+              <div class="description">
+                <p>Mercedes RS e-tron GT</p>
+              </div>
+              <div class="price">
+                <p class="price">$ 91000</p>
+              </div>
+            </div>
+          </div>
+          <div class="card6 cards" data-image="/images/e-class-2.svg">
+            <div class="car-info">
+              <div class="photo">
+                <img src="/images/e-class-2.svg" alt="E-class">
+              </div>
+              <div class="description">
+                <p>Mercedes-Benz E-Class</p>
+              </div>
+              <div class="price">
+                <p class="price">$ 81000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>    
+  <script src="js/main.js"></script>       
+</body>
+
+</html>
